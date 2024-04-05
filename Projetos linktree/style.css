@@ -1,0 +1,123 @@
+*{
+    /*esse comando serve para remover os padrões de posicionamento do navegador*/
+    margin: 00;
+    padding: 00;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-image: url(./assets/bg-mobile.jpg);
+    background-repeat: no-repeat;
+    /*impede a repetição da imagem na página*/
+    background-position: top center;
+    /*alinha o eixo de interesse da imagem*/
+    background-size: cover;
+    /*se adapta ao tamanho do dispositivo, sem deixar espaços em branco*/
+
+}
+
+#container {
+    
+    width: 360px;
+   /*define a largura da box*/
+    margin: 56px auto 0px auto;
+/*as margins servem para distribuir o espaço não utilizado para que a box fique centralizada.*/
+/*margins tem 4 categorias: right, left, top e bottom*/
+/*esse modelo de margin utilizado, usa um sistema relógio: top, right, bottom, left*/
+}
+body * {
+    font-family: "Inter", sans-serif;
+    color: white;
+    text-decoration:none;
+    /*Dentro do body foi adicionado um comando universal que usa a mesma fonte para todos 
+    os textos da página.*/
+}
+#profile{
+    text-align: center;
+    padding: 24px;
+
+}
+#profile img { /*em elemento inline nao se pode aplicar o margin*/
+    width: 112px;
+    
+
+
+
+}
+
+#profile p {
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 8px;
+}
+
+ul{
+list-style: none;
+/*esse comando serve para remover a numeração das listas*/;
+ }
+
+ ul li a{
+    
+    
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center ;
+    /*alinha o conteúdo da caixa (depende do display flex)*/                    
+    padding: 16px 24px;
+    background: rgba(255,255,255,0.1);
+    border: solid 1px white;
+    border-radius: 5px;
+   /*"display: flex" cria um plano xy (main) no centro da sua box para que os itens se alinhem.*/
+    
+}
+.icone{
+    width: 220px;
+     margin-top: 6px;
+    text-align: end;
+   
+    
+}
+.google{
+    margin-top: 6px;
+    width:410px;
+    text-align:end;
+    
+}
+.insta{
+    margin-top: 6px;
+    width:390px;
+    text-align:end;
+    
+}
+.instalogo{
+    width: 240px;
+    
+    margin-top: 6px;
+    text-align: end;
+}
+.giticon{
+    width: 240px;
+    
+    margin-top: 6px;
+    text-align: end;
+}
+.gitname{
+    margin-top: 6px;
+    width: 380px;
+    text-align:end;
+   
+}
+.spotifyname{
+    margin-top: 6px;
+    width:370px;
+    text-align:end;
+    
+}
+.spotifyicon{
+    width: 240px;
+    
+    margin-top: 6px;
+   text-align: end;
+}
+

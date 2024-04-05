@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+   <!--head é a tag responsável em ajustar configurações do documento que não são visíveis 
+para as pessoas que acessam a página -->
+    <meta charset="UTF-8">
+    <!--define quais os conjuntos de caracteres vamos usar nessa página (aceitando caracteres especiais)-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--compatibilidade com navegadores antigos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--definindo a largura da parte visível pelo dispositivo que usa o site-->
+    <title>Devlinks</title>
+    <link rel="stylesheet" href="./style.css">
+    <!--para usar o html no css, use "./" e selecione o css-->
+</head>
+<body>
+    <!--única parte visível do site-->
+    <div id="container"> <!--só pode ter um id com esse nome, se existir outros, nao serao
+    considerados-->
+    <!--div stands for division, ou seja, o título é classificado como uma divisão do site-->
+        <div id="profile">
+            <img src="./assets/Mobile/avatar.svg" alt="Foto de perfil de Samuel Abrão">
+        <p>@sam_.abr </p>
+        
+         </div>
+         <ul> <!--ul é o comando para fazer uma lista desordenada, li é um componente dessa lista.-->
+            <li> 
+                <a href="https://www.instagram.com/sam_.abr/?hl=pt-br"
+                target="_blank">
+                
+                    <div class="insta">Instagram</div>
+                    <div class="instalogo"> <img src="Mobile/Desktop/Logo icon/Instagram.svg" alt="mini insta"> </div>
+                
+                </a>
+                
+            </li>
+            <li> 
+                <a href="https://drive.google.com/drive/folders/14W468ruHcrH69PnAF_Z6SDQ4-lVumFd8?usp=drive_link"
+                target="_blank">
+
+                    <div class="google"> Google Drive</div>
+                    <div class="icone"> <img src="/Mobile/Desktop/Logo icon/Desktop/Desktop/Vector.png" alt="mini google drive"></div>
+                
+                </a>
+
+
+                
+            </li>
+            <li>
+                <a href="https://open.spotify.com/user/pwq5kg2v72pmimb3fbppy2y7p?si=b631ff4f3b2b4346"
+                target="_blank"> 
+                    <div class="spotifyname">Spotify</div>
+                    <div class= "spotifyicon"> <img src="/Mobile/Desktop/Logo icon/Desktop/kisspng-computer-icons-social-media-business-grey-spotify-5b2859feaebd30 1.png"></div>
+
+                </a>
+            </li>
+            <li>
+        
+                <a href="https://github.com/samuka7abr"
+                target="_blank">
+                    <div class="gitname">Github</div> 
+                    <div class="giticon"> <img src="Mobile/Desktop/Logo icon/Desktop/Desktop/Logo icon/GitHub.png"></div>
+                </a>
+            </li>
+            
+         </ul>
+         <!--caso queira que essa lista seja numerada, use o comando ol (ordered list)-->
+    </div>
+   
+</body>
+
+</html>
